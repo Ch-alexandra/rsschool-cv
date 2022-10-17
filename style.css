@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6fab7a;
+    font-family: 'Italic', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #292622;
+}
+
+header {
+    background-color: #6fab7a;
+    font-family: 'Flare Italic', sans-serif;
+    margin: 0 auto;
+    color: #292622;
+}
+
+.text-block {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.list {
+    border: solid #45704d;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    padding: 15px 15px;
+}
+
+.item li:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #1f3223;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section-profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+pre {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 15px 0px;
+}
+
+h3 {
+    padding: 15px 0px;
+}
+
+
+.section {
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.section:nth-child(odd) {
+    background: #b3dfb7;
+}
+
+.section:nth-child(even) {
+    background: #b3dfb7;
+}
+
+#skillsLanguage {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#skills {
+    flex: 1;
+}
+
+#language {
+    width: 1500px;
+}
+
+pre {
+    overflow: auto;
+}
+
+.item__projects {
+    padding: 0;
+    line-height: 1.8;
+    list-style: none;
+}
+
+footer {
+    background-color: #45704d;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.rs {
+    width: 50px;
+    height: 20px;
+    background-image: url(".img/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0%
+}
